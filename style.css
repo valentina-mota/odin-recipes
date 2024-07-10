@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+h1 {
+    margin: 40px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.dish-image.lasagna {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% -550px;
+}
+
+.dish-image.spaghetti {
+    width: 100%;
+    object-fit: cover;
+    object-position: center -150px;
+}
+
+.dish-image.tiramisu {
+    width: 100%;
+    object-fit: cover;
+    zoom: 60%;
+    object-position: center center;
+}
+
+.description, ol {
+    width: 30%;
+    text-align: center;
+}
+
+ol li:not(:first-child) {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: "\2618";
+}
+
+ul li {
+    font-size: large;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: lightslategray;
+}
+
